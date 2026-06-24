@@ -1,0 +1,42 @@
+# Ambiente / segredos
+.env
+*.local
+android/local.properties
+lib/config/app_config.dart
+
+# Miscellaneous
+*.class
+*.log
+*.swp
+.DS_Store
+.history
+.svn/
+
+# IntelliJ / Android Studio
+*.iml
+*.ipr
+*.iws
+.idea/
+
+# VS Code
+.vscode/
+
+# Flutter / Dart / Pub
+**/doc/api/
+.dart_tool/
+.flutter-plugins
+.flutter-plugins-dependencies
+.pub-cache/
+.pub/
+/build/
+/coverage/
+app.*.symbols
+app.*.map.json
+
+# Node (caso haja tooling auxiliar)
+node_modules/
+
+# Materiais sensíveis (nunca versionar)
+*.pdf
+*.psd
+*.ai
